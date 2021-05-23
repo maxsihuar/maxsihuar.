@@ -1,0 +1,17 @@
+.clearfix{
+    padding: 3rem;
+}
+.container{
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+p{
+    font-size: 1.5rem;
+}
+@media screen and (max-width:900px ){
+    .clearfix{
+        padding: 2rem;
+    }
+}
