@@ -1,6 +1,7 @@
 header{
     width: 100%;
     position: fixed;
+    font-size: 20px;
 }
 header div{
     display:none;
@@ -31,11 +32,11 @@ i.icon{
     padding: 20px;
     margin-right: 10px;
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1020px) {
     header nav ul li a{
         display: block;
         padding-top: 20px;
-        padding-left: 10px;
+        padding-left: 20px;
         font-size: 1.5rem;
     }
     i.icon{
@@ -51,7 +52,7 @@ i.icon{
     }
     header div{
         display:block;
-        height: 10%;
+        height: 20%;
 		width:100%;
         background: rgb(36, 36, 36);
     }
